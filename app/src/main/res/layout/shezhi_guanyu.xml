@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<include layout="@layout/guanyu_actionbar"></include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="接啊哈哈哈手动和开始将附件是考虑到法律上看见对方奋斗事实上事实上事实上事实上事实上的快递费肯定是分开来打开开门v迷小窗口v刹徐徐从v型，吗啊       "
+        android:textSize="20sp"
+        />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f14e6d"
+        >
+        <ImageView
+            android:id="@+id/fhj4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/jkh"
+            android:layout_gravity="center_vertical"
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="注册"
+    android:textSize="20sp"
+    android:textColor="#fff"
+    android:layout_marginLeft="120dp"
+    android:layout_gravity="center_vertical"
+    />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="36dip"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dip"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#AAAAAA"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="请输入您的手机号."
+        android:background="@drawable/ct"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <EditText
+
+            android:layout_width="185dp"
+            android:layout_height="36dip"
+            android:padding="5dip"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical"
+            android:hint="输入验证码"
+            android:background="@drawable/dt"
+            android:layout_marginLeft="8dp"
+            />
+        <Button
+
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="19dp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/tj"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="提交"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:background="#FFF14E6D"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

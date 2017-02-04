@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#dedada">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f14e6d">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="微积分"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sousuo"
+            android:layout_gravity="center_vertical"
+            android:textColor="#e928d9"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:onClick="onclick1"
+            />
+    </RelativeLayout>
+    <com.flyco.tablayout.SegmentTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/shou1"
+        android:layout_centerHorizontal="true"
+        app:tl_textSelectColor="#fff" />
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/shou2">
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+

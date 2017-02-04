@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xy.lenovo.weijifen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".activity.Ssk"></activity>
+        <activity android:name=".ql.Dljm"></activity>
+        <activity android:name=".ql.Zc"></activity>
+        <activity android:name=".ql.Ljdl"></activity>
+        <activity android:name=".ql.Tj"></activity>
+        <activity android:name=".ql.Tj1"></activity>
+        <activity android:name=".ql.Tj2"></activity>
+        <activity android:name=".ql.Q1"></activity>
+        <activity android:name=".ql.Q2"></activity>
+        <activity android:name=".ql.Xxxx"></activity>
+        <activity android:name=".ql.MainActivity2">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+
+        <activity android:name=".Contral.WoDeSheZhi"></activity>
+        <activity android:name=".Contral.SheZhiBanBen"></activity>
+        <activity android:name=".Contral.SheZhiGuanYu"></activity>
+        <activity android:name=".Contral.GengHuanZhangHao"></activity>
+        <activity android:name=".Contral.ZhangHu"></activity>
+        <activity android:name=".Contral.AnQuanZhongXin"></activity>
+
+        <activity android:name=".zyb.Sousuo"></activity>
+    </application>
+
+</manifest>
