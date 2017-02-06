@@ -36,6 +36,7 @@
         <activity android:name=".Contral.AnQuanZhongXin"></activity>
 
         <activity android:name=".zyb.Sousuo"></activity>
+        <activity android:name=".ql.SetPwdResActivity"></activity>
     </application>
 
 </manifest>
